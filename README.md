@@ -31,17 +31,13 @@ cd psikit
 python setup.py
 ```
 
-## TODO
-
-The following features are planned for future releases:
-
-- **Enhanced Polarization Handling**: Support for multiple polarization bases and dynamic polarizer orientation.
-- **Multi-Qubit Support**: Extend the framework to simulate entanglement and multi-qubit operations.
-- **Graphical User Interface (GUI)**: Develop a GUI for interactive experiment setup and visualization.
-- **Integration with Hardware Simulators**: Connect with real quantum hardware or more detailed simulators.
-- **Advanced Measurement Options**: Add support for weak measurements and POVMs (Positive Operator-Valued Measures).
-- **Expanded Documentation and Tutorials**: Create detailed guides, examples, and API references.
-
+## Roadmap  
+We have a long-term vision for psikit. Here’s what we plan to achieve in upcoming releases:  
+- [ ] Extend support for multi-qubit simulations  
+- [ ] Improve visualization for quantum states and transformations  
+- [ ] Implement more quantum gates beyond beam splitters and polarizers  
+- [ ] Support integration with real quantum hardware  
+- [ ] Develop a plugin system for community-contributed modules  
 
 ## Citation
 If you use psikit in your research or publications, please consider citing our library using the following reference:
