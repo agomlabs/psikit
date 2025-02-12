@@ -50,7 +50,7 @@ If you use psikit in your research or publications, please consider citing our l
   title = {{psikit}: A Lightweight Quantum Computing Framework},
   author = {{AgomLabs}},
   year = {2025},
-  note = {Available at \url{https://github.com/your_username/psikit}},
+  note = {Available at \url{https://github.com/agomlabs/psikit}},
 }
 ```
 Feel free to modify the citation format according to your requirements.
