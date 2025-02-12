@@ -14,11 +14,12 @@
 In the included example, a photonic qubit is prepared in a known state (e.g., |0⟩), passed through a beam splitter (which creates a superposition of two paths: "Transmission" and "Reflection"), and then measured. The framework simulates the collapse of the photon's state onto one of these paths based on the calculated probabilities.
 
 ```py
-from psikit.experiments import simulate_photonic_qubit_experiment
+from psikit.experiments import simulate_photonic_qubit_experiment, plot_experiment_diagram
 
 simulate_photonic_qubit_experiment()
+plot_experiment_diagram()
 ```
-
+![Figure](./example.png)
 ## Installation
 
 Clone the repository and install the required dependency (NumPy):
