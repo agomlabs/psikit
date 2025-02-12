@@ -27,7 +27,7 @@ Clone the repository and install the required dependency (NumPy):
 
 ```bash
 git clone https://github.com/agomlabs/psikit.git
-cd psikit/psikit
+cd psikit
 python setup.py
 ```
 
