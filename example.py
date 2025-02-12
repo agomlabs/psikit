@@ -1,3 +1,4 @@
-from psikit.experiments import simulate_photonic_qubit_experiment
+from psikit.experiments import simulate_photonic_qubit_experiment, plot_experiment_diagram
 
 simulate_photonic_qubit_experiment()
+plot_experiment_diagram()

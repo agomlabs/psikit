@@ -11,7 +11,8 @@ setup(
     url='https://github.com/your_username/psikit',
     packages=find_packages(),
     install_requires=[
-        'numpy'
+        'numpy',
+        'matplotlib'
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
