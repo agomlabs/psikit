@@ -1,0 +1,3 @@
+from psikit.experiments import simulate_photonic_qubit_experiment
+
+simulate_photonic_qubit_experiment()
