@@ -21,6 +21,20 @@ plot_experiment_diagram()
 ```
 ![Figure](./example.png)
 
+## Advanced Usage  
+### Custom Quantum Operations  
+Users can define custom quantum gates and integrate them into the psikit framework. Example:  
+
+```python
+from psikit.core import QuantumState, QuantumGate  
+
+class CustomGate(QuantumGate):  
+    def __init__(self, matrix):  
+        super().__init__(matrix)  
+
+custom_gate = CustomGate([[0, 1], [1, 0]])  # Example of a custom-defined gate
+```
+
 ## Installation
 
 Clone the repository and install the required dependency (NumPy):
@@ -31,6 +45,12 @@ cd psikit
 python setup.py
 ```
 
+## Support
+If you encounter issues or need help, feel free to open an issue or contact us via:
+- [GitHub issues](https://github.com/agomlabs/psikit/issues)
+- Email: [agom.contact@gmail.com](mailto:agom.contact@gmail.com)
+- [Our Website](https://labs.agom.ir/)
+
 ## Roadmap  
 We have a long-term vision for psikit. Here’s what we plan to achieve in upcoming releases:  
 - [ ] Extend support for multi-qubit simulations  
@@ -38,6 +58,9 @@ We have a long-term vision for psikit. Here’s what we plan to achieve in upcom
 - [ ] Implement more quantum gates beyond beam splitters and polarizers  
 - [ ] Support integration with real quantum hardware  
 - [ ] Develop a plugin system for community-contributed modules  
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit pull requests with your improvements.
 
 ## Citation
 If you use psikit in your research or publications, please consider citing our library using the following reference:
@@ -51,8 +74,6 @@ If you use psikit in your research or publications, please consider citing our l
 ```
 Feel free to modify the citation format according to your requirements.
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit pull requests with your improvements.
 
 ## About Us
 **AgomLabs** is an open-source organization dedicated to developing cutting-edge, free, and open-source technologies for people and developers. At AgomLabs, our mission is to build scalable and cost-effective solutions that empower the community and drive technological innovation. We also develop specialized technologies for large businesses.  
